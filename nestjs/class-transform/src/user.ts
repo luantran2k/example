@@ -9,7 +9,7 @@ export default class UserDto extends BaseDto {
   age: number;
 }
 
-export class UserDto2 extends BaseDto {
+export class UserDto2 {
   @Expose()
   id: number;
   @Expose()
